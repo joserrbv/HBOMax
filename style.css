@@ -1,21 +1,56 @@
-.container {
+body {
+    background-color: black;
+}
+.container {         
     display: flex;
     flex-direction: column;
-    text-align: center;
-    
-    
-    
+    align-items: center;
 }
-#logo {
+img {
     margin-top: 25px;
- 
+    width: 165x;
+    height: 29px;
+}
                        
+h1 { 
+    margin-top: 159px;     
+}
+#hbo {
+    margin-top: 25px;
+    color: white;
+}
+
+#fora input {
+    height: 53px;
+    width: 566px;
+    border-radius: 25px;
+    border: none;
+    background-color: #7F7F7F;
+}
+form {
+    color: white;
 }
 h1 {
-    margin-top: 159px;
-    
+    color: white;
+}
+h3 {
+    color: white;
+}
+#botao {
+    border-radius: 25px;
+    background-color: linear-gradient(90deg, #A18CD1 0%, #FBC2EB 100%);
+    color: black;
+    width: 214px;
+    height: 55px;
     
 }
-#label {
-    margin-top: 30px;
+#botao1 {
+    border-radius: 25px;
+    background-color: linear-gradient(90deg, #A18CD1 0%, #FBC2EB 100%);
+    color: black;
+    width: 404px;
+    height: 55px;
+    margin-bottom: 76px;
+    border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
